@@ -35,6 +35,21 @@ similarity=pickle.load(open('similarity.pkl','rb'))
 st.title('Movie Recommendation System')
 selected_movie_name= st.selectbox('Select movie',movies['title'].values)
 
+
+# Custom CSS to set the background color
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: black;
+        color: white;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
 if st.button('Recommend'):
     names,posters =recommend(selected_movie_name)
 
