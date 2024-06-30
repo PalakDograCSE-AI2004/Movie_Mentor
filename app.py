@@ -36,18 +36,6 @@ st.title('Movie Recommendation System')
 selected_movie_name= st.selectbox('Select movie',movies['title'].values)
 
 
-# Custom CSS to set the background color
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-color: black;
-        color: black;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 
 if st.button('Recommend'):
