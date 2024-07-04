@@ -6,7 +6,7 @@ Movie Mentor is a machine learning-based content recommendation system that sugg
 
 ## Run Hosted Application
 
-check out the live application here:
+
 
 ```bash
   click here: https://movie-mentor-app-bypalakdogra04.streamlit.app/
